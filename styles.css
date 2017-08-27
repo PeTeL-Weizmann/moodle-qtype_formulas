@@ -114,3 +114,12 @@
 .que.formulas .formulation .formulaspartfeedback .incorrect {
     background: transparent;
 }
+
+/* RTL hacks */
+#page-question-type-formulas #id_varsrandom,
+#page-question-type-formulas #id_varsglobal {
+    height: 80px;
+    direction: ltr;
+    text-align: left;
+}
+
